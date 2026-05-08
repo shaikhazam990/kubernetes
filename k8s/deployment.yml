@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: main-server
-        image: express_cohort_2:latest
+        image: cohort_2_express:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
